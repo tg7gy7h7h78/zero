@@ -646,7 +646,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('*── 「 SCRIPT 」 ──*\n •ZyyXtrime : https://github.com/Fauzibanh/')
+                m.reply('*── 「 SCRIPT 」 ──*\n •ZERO : https://github.com/')
             }
             break
             case 'chat': {
@@ -1252,7 +1252,7 @@ let pantek = []
 break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} ZERO`
                 let getGroups = await zyy.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1271,7 +1271,7 @@ break
                                 }
                             }]
                       fatihgans = fs.readFileSync('./media/gambar.jpg')
-                      let txt = `「 *REALZI - MD* 」\n\n${text}`
+                      let txt = `「 *ZERO - MD* 」\n\n${text}`
                       zyy.send5ButImg(i, txt, zyy.user.name, fatihgans, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
@@ -1296,7 +1296,7 @@ break
                                 }
                             }]
                       memei = fs.readFileSync('./media/gambar.jpg')
-                      let txt = `「 *REALZI - MD* 」\n\n${text}`
+                      let txt = `「 *ZERO - MD* 」\n\n${text}`
                       zyy.send5ButImg(yoi, txt, zyy.user.name, memei, btn)
 		}
 		m.reply('Sukses Broadcast')
@@ -1776,7 +1776,7 @@ headerType: 1
             }
             break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
+                if (!Number(text)) throw `Example : ${prefix + command} 94703148103`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 zyy.sendText(m.chat, `➣ *Nomor HP :* ${anu.message.nomer_hp}\n➣ *Angka Shuzi :* ${anu.message.angka_shuzi}\n➣ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n➣ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -2349,18 +2349,8 @@ ${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. 
             break
             case 'tqto': case 'thanksto': case 'tq': {
             tq = `*｢  THANKS TO FOR  ｣*
-            • Dika Ardnt
-            • KizakiXd
-            • ZyyXtrime
-            • Yogi Prasetya
-            • Layna Bot
-            • Melbot
-            • Senku
-            • Zenz
-            • Hardianto
-            • My Subscriber
-            • All Friends`
-const _0x3e0756=_0x9f77;(function(_0x1010fc,_0x2d3bb8){const _0x49a73d=_0x9f77,_0x7b9540=_0x1010fc();while(!![]){try{const _0x1f2c66=-parseInt(_0x49a73d(0xd6))/0x1*(-parseInt(_0x49a73d(0xd9))/0x2)+-parseInt(_0x49a73d(0xd3))/0x3*(parseInt(_0x49a73d(0xcf))/0x4)+parseInt(_0x49a73d(0xce))/0x5+parseInt(_0x49a73d(0xc7))/0x6+-parseInt(_0x49a73d(0xd7))/0x7+-parseInt(_0x49a73d(0xca))/0x8+parseInt(_0x49a73d(0xc9))/0x9*(parseInt(_0x49a73d(0xda))/0xa);if(_0x1f2c66===_0x2d3bb8)break;else _0x7b9540['push'](_0x7b9540['shift']());}catch(_0x5a883f){_0x7b9540['push'](_0x7b9540['shift']());}}}(_0x1306,0x31b20));const template=generateWAMessageFromContent(m[_0x3e0756(0xd2)],proto['Message'][_0x3e0756(0xd4)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':tq[_0x3e0756(0xd1)](),'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x3e0756(0xcb))},'hydratedFooterText':_0x3e0756(0xd5),'hydratedButtons':[{'urlButton':{'displayText':'Instagram','url':_0x3e0756(0xd8)}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+6289503657396'}},{'quickReplyButton':{'displayText':'Speed','id':_0x3e0756(0xcc)}},{'quickReplyButton':{'displayText':'Script','id':'.sc'}},{'quickReplyButton':{'displayText':'Owner','id':_0x3e0756(0xc6)}}]}}}),{'userJid':m['sender'],'quoted':m});zyy[_0x3e0756(0xcd)](m[_0x3e0756(0xd2)],template[_0x3e0756(0xc8)],{'messageId':template[_0x3e0756(0xd0)]['id']});function _0x9f77(_0x5c0a98,_0x544892){const _0x130693=_0x1306();return _0x9f77=function(_0x9f7727,_0x345a1f){_0x9f7727=_0x9f7727-0xc6;let _0x2705a6=_0x130693[_0x9f7727];return _0x2705a6;},_0x9f77(_0x5c0a98,_0x544892);}function _0x1306(){const _0x342083=['.owner','1109034AAtfMM','message','418203DiqzHB','2972888aTooYm','./media/zyy.jpg','.ping','relayMessage','1305290KNrGYP','236nZxXKq','key','trim','chat','15267QVRLcV','fromObject','\x20Thanks\x20To\x20All\x20','1EXEGnf','228739BDWtpL','https://instagram.com/spnx.fauzi/','87982AsXiZl','90rDTNxv'];_0x1306=function(){return _0x342083;};return _0x1306();}
+            • ME`
+const _0x3e0756=_0x9f77;(function(_0x1010fc,_0x2d3bb8){const _0x49a73d=_0x9f77,_0x7b9540=_0x1010fc();while(!![]){try{const _0x1f2c66=-parseInt(_0x49a73d(0xd6))/0x1*(-parseInt(_0x49a73d(0xd9))/0x2)+-parseInt(_0x49a73d(0xd3))/0x3*(parseInt(_0x49a73d(0xcf))/0x4)+parseInt(_0x49a73d(0xce))/0x5+parseInt(_0x49a73d(0xc7))/0x6+-parseInt(_0x49a73d(0xd7))/0x7+-parseInt(_0x49a73d(0xca))/0x8+parseInt(_0x49a73d(0xc9))/0x9*(parseInt(_0x49a73d(0xda))/0xa);if(_0x1f2c66===_0x2d3bb8)break;else _0x7b9540['push'](_0x7b9540['shift']());}catch(_0x5a883f){_0x7b9540['push'](_0x7b9540['shift']());}}}(_0x1306,0x31b20));const template=generateWAMessageFromContent(m[_0x3e0756(0xd2)],proto['Message'][_0x3e0756(0xd4)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':tq[_0x3e0756(0xd1)](),'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x3e0756(0xcb))},'hydratedFooterText':_0x3e0756(0xd5),'hydratedButtons':[{'urlButton':{'displayText':'Instagram','url':_0x3e0756(0xd8)}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+6289503657396'}},{'quickReplyButton':{'displayText':'Speed','id':_0x3e0756(0xcc)}},{'quickReplyButton':{'displayText':'Script','id':'.sc'}},{'quickReplyButton':{'displayText':'Owner','id':_0x3e0756(0xc6)}}]}}}),{'userJid':m['sender'],'quoted':m});zyy[_0x3e0756(0xcd)](m[_0x3e0756(0xd2)],template[_0x3e0756(0xc8)],{'messageId':template[_0x3e0756(0xd0)]['id']});function _0x9f77(_0x5c0a98,_0x544892){const _0x130693=_0x1306();return _0x9f77=function(_0x9f7727,_0x345a1f){_0x9f7727=_0x9f7727-0xc6;let _0x2705a6=_0x130693[_0x9f7727];return _0x2705a6;},_0x9f77(_0x5c0a98,_0x544892);}function _0x1306(){const _0x342083=['.owner','1109034AAtfMM','message','418203DiqzHB','2972888aTooYm','./media/zyy.jpg','.ping','relayMessage','1305290KNrGYP','236nZxXKq','key','trim','chat','15267QVRLcV','fromObject','\x20Thanks\x20To\x20All\x20','1EXEGnf','228739BDWtpL','SOON/','87982AsXiZl','90rDTNxv'];_0x1306=function(){return _0x342083;};return _0x1306();}
 }
 break
 
@@ -2644,22 +2634,22 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 zyy.sendMessage(m.chat, { contacts: { displayName: 'MR>ZERO', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
-            case 'list': case 'menu': case 'help': case '?': {
+            case 'zero': case 'menu': case 'help': case '?': {
                 const Tag = '94782575993'
                 anu = `_*Hi Kak ${pushname} ${ucapanWaktu} 👋.*_
 _*Saya Whatsapp Robot Yang Bisa Membantu Anda/User Kapan Saja!!*_
 
-_*Berikut Adalah Daftar Fitur Yang Terdapat Pada Realzi-bot*_
+_*Berikut Adalah Daftar Fitur Yang Terdapat Pada VIMUKTHI*_
 
-*[   INFORMATION  REALZI  ]*
+*[   INFORMATION  ZERO  ]*
 
 _❏ Your Name : ${pushname}_
 _❏ Library : Baileys-Md_
 _❏ Version : 5.0.0_
 _❏ Language : Javascript_
 _❏ Author : ZERO_
-_❏ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-_❏ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_                
+_❏ Date Server :  ${moment.tz('Asia/colombo').format('DD/MM/YY')}_
+_❏ Time Sever : ${moment.tz('Asia/colombo').format('HH:mm:ss')}_                
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏                
 *｢  MAIN MENU  ｣*
  » ${prefix}ping
@@ -2915,7 +2905,7 @@ _❏ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
  » ${prefix}blackpink
  » ${prefix}igcertificate
  » ${prefix}ytcertificate`
-const _0x3f1b63=_0x5e00;(function(_0x4b42ba,_0x4be51f){const _0x17fbf3=_0x5e00,_0x42cb0d=_0x4b42ba();while(!![]){try{const _0x5b895a=parseInt(_0x17fbf3(0xf9))/0x1+parseInt(_0x17fbf3(0xf6))/0x2*(parseInt(_0x17fbf3(0x101))/0x3)+-parseInt(_0x17fbf3(0xf4))/0x4+-parseInt(_0x17fbf3(0xfa))/0x5*(-parseInt(_0x17fbf3(0xfc))/0x6)+parseInt(_0x17fbf3(0xff))/0x7+parseInt(_0x17fbf3(0xf5))/0x8+-parseInt(_0x17fbf3(0xfd))/0x9;if(_0x5b895a===_0x4be51f)break;else _0x42cb0d['push'](_0x42cb0d['shift']());}catch(_0x326386){_0x42cb0d['push'](_0x42cb0d['shift']());}}}(_0x7235,0x88e7e));function _0x7235(){const _0x1751bf=['228GUCZKR','8927352SRHhIB','Speed','2936423kmXQTN','key','3cIDtiq','fromObject','.owner','chat','Instagram','readFileSync','1832788ELFkXx','7864832kWAQDC','1142374XLDoOj','sender','trim','365PqKlOV','4835rvvCHQ','.sc'];_0x7235=function(){return _0x1751bf;};return _0x7235();}function _0x5e00(_0xb941ea,_0x18c4e1){const _0x723562=_0x7235();return _0x5e00=function(_0x5e009c,_0x3728a2){_0x5e009c=_0x5e009c-0xf0;let _0x246ca4=_0x723562[_0x5e009c];return _0x246ca4;},_0x5e00(_0xb941ea,_0x18c4e1);}const template=generateWAMessageFromContent(m['chat'],proto['Message'][_0x3f1b63(0x102)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu[_0x3f1b63(0xf8)](),'locationMessage':{'jpegThumbnail':fs[_0x3f1b63(0xf3)]('./media/fake.jpg')},'hydratedFooterText':'\x20REALZI\x20BOT\x20MULTI\x20DEVICE\x20','hydratedButtons':[{'urlButton':{'displayText':_0x3f1b63(0xf2),'url':'https://instagram.com/spnx.fauzi/'}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+6289503657396'}},{'quickReplyButton':{'displayText':_0x3f1b63(0xfe),'id':'.ping'}},{'quickReplyButton':{'displayText':'Script','id':_0x3f1b63(0xfb)}},{'quickReplyButton':{'displayText':'Owner','id':_0x3f1b63(0xf0)}}]}}}),{'userJid':m[_0x3f1b63(0xf7)],'quoted':m});zyy['relayMessage'](m[_0x3f1b63(0xf1)],template['message'],{'messageId':template[_0x3f1b63(0x100)]['id']});
+const _0x3f1b63=_0x5e00;(function(_0x4b42ba,_0x4be51f){const _0x17fbf3=_0x5e00,_0x42cb0d=_0x4b42ba();while(!![]){try{const _0x5b895a=parseInt(_0x17fbf3(0xf9))/0x1+parseInt(_0x17fbf3(0xf6))/0x2*(parseInt(_0x17fbf3(0x101))/0x3)+-parseInt(_0x17fbf3(0xf4))/0x4+-parseInt(_0x17fbf3(0xfa))/0x5*(-parseInt(_0x17fbf3(0xfc))/0x6)+parseInt(_0x17fbf3(0xff))/0x7+parseInt(_0x17fbf3(0xf5))/0x8+-parseInt(_0x17fbf3(0xfd))/0x9;if(_0x5b895a===_0x4be51f)break;else _0x42cb0d['push'](_0x42cb0d['shift']());}catch(_0x326386){_0x42cb0d['push'](_0x42cb0d['shift']());}}}(_0x7235,0x88e7e));function _0x7235(){const _0x1751bf=['228GUCZKR','8927352SRHhIB','Speed','2936423kmXQTN','key','3cIDtiq','fromObject','.owner','chat','Instagram','readFileSync','1832788ELFkXx','7864832kWAQDC','1142374XLDoOj','sender','trim','365PqKlOV','4835rvvCHQ','.sc'];_0x7235=function(){return _0x1751bf;};return _0x7235();}function _0x5e00(_0xb941ea,_0x18c4e1){const _0x723562=_0x7235();return _0x5e00=function(_0x5e009c,_0x3728a2){_0x5e009c=_0x5e009c-0xf0;let _0x246ca4=_0x723562[_0x5e009c];return _0x246ca4;},_0x5e00(_0xb941ea,_0x18c4e1);}const template=generateWAMessageFromContent(m['chat'],proto['Message'][_0x3f1b63(0x102)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu[_0x3f1b63(0xf8)](),'locationMessage':{'jpegThumbnail':fs[_0x3f1b63(0xf3)]('./media/fake.jpg')},'hydratedFooterText':'\x20ZERO\x20BOT\x20MULTI\x20DEVICE\x20','hydratedButtons':[{'urlButton':{'displayText':_0x3f1b63(0xf2),'url':'SOOn'}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+94782575993'}},{'quickReplyButton':{'displayText':_0x3f1b63(0xfe),'id':'.ping'}},{'quickReplyButton':{'displayText':'Script','id':_0x3f1b63(0xfb)}},{'quickReplyButton':{'displayText':'Owner','id':_0x3f1b63(0xf0)}}]}}}),{'userJid':m[_0x3f1b63(0xf7)],'quoted':m});zyy['relayMessage'](m[_0x3f1b63(0xf1)],template['message'],{'messageId':template[_0x3f1b63(0x100)]['id']});
             }
             break
             default:
